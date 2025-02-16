@@ -228,7 +228,7 @@ setInterval(() => {
     changeImage(currentImg);
 }, 9000);
 function changeImage(currentImg) {
-    landingPage.style.backgroundImage = `url('/imgs/landing/${currentImg}.jpg')`;
+    landingPage.style.backgroundImage = `url('imgs/landing/${currentImg}.jpg')`;
     headerText.innerHTML = arrHeaders[currentImg - 1];
     msgText.innerHTML = arrMsgs[currentImg - 1];
     fillBullet(currentImg);
